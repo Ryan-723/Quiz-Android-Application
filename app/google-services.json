@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "900500491704",
+    "firebase_url": "https://quizhero-cd8bb-default-rtdb.firebaseio.com",
+    "project_id": "quizhero-cd8bb",
+    "storage_bucket": "quizhero-cd8bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900500491704:android:ef14ea77933ebc9608d34d",
+        "android_client_info": {
+          "package_name": "com.example.group2_final_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900500491704-ptavdjip6kjk3p2ofjnpephfg4shbdt1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjWNxlmjcicQFf7-D4UZ3djlDuhzH0aIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900500491704-ptavdjip6kjk3p2ofjnpephfg4shbdt1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

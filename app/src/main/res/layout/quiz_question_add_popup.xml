@@ -1,0 +1,45 @@
+<!-- popup_add_question.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/editTextQuestion"
+        android:background="@drawable/textfield_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"
+        android:hint="@string/enter_your_question_text"/>
+
+    <EditText
+        android:id="@+id/editTextTotalOptions"
+        android:background="@drawable/textfield_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/total_options"
+        android:text="4"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"
+        android:inputType="number"/>
+
+    <!-- Dynamically add option EditText fields based on the total options -->
+    <LinearLayout
+        android:id="@+id/optionsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveQuizQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:text="@string/save" />
+</LinearLayout>
